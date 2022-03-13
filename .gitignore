@@ -1,0 +1,2 @@
+#ignore the jenkins volume mounted home directory
+jenkins-home
