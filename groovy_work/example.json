@@ -1,0 +1,6 @@
+{ 
+"db_pass":"foobar",
+"db_name":"test_db", 
+"db_user":"admin",
+"db_port":"2050"
+}
