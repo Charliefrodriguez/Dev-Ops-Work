@@ -1,0 +1,1 @@
+This method will generated a docker env file given a json file.

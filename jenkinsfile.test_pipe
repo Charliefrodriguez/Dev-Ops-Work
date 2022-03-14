@@ -1,18 +1,15 @@
-pipeline{ 
 
-    agent any 
+
     
-        node {
-            stages {
-                stage('Example') {
-                    if (env.INPUT == 'master') {
-                        echo 'I only execute on the master branch'
-                    } else {
-                        echo 'I execute elsewhere'
-                    }
-                } 
-            }
-        }    
+node {
+    
+    stage('Example') {
+        if (env.INPUT == 'master') {
+            echo 'I only execute on the master branch'
+        } else {
+            echo 'I execute elsewhere'
+        }
+    } 
+    
+}    
      
-    
-} 

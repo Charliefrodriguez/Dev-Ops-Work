@@ -10,5 +10,3 @@ def env_file_gen(String file_name){
 	   println(key)
 	} 
 }
-
-//env_file_gen("./example.json")
