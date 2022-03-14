@@ -1,6 +1,7 @@
-import groovy.json.JsonSlurper 
+//import groovy.json.JsonSlurper 
+import groovy.json.JsonSlurperClassic
 def call(String file_name){
-	def jsonSlurper = new JsonSlurper()
+	def jsonSlurper = new JsonSlurperClassic()
 	data = jsonSlurper.parse(new File(file_name)) 
 	println(data)
 	File output =  new File("output.env") 
