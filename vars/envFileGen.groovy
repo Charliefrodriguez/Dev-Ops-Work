@@ -9,5 +9,6 @@ def call(String file_name){
 	   output.append("\n")
 	   println(key)
 	} 
+	jsonSlurper = null
 	data = null // use this to remove not serializable by jenkins error
 }
