@@ -9,4 +9,5 @@ def call(String file_name){
 	   output.append("\n")
 	   println(key)
 	} 
+	data = null // use this to remove not serializable by jenkins error
 }
