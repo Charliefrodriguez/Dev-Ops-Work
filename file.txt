@@ -1,2 +1,0 @@
-docker run -p 8080:8080 -p 50000:50000 -v /Users/charlesrodriguez/test_dev_ops_technologies/CI-CD/jenkins-home:/var/jenkins_home  jenkins/jenkins:lts-jdk11
-
